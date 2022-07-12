@@ -76,9 +76,12 @@
         android:hint="Password"
         android:layout_marginTop="15dp"
         android:layout_margin="35dp"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
+        android:paddingRight="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:drawableRight="@drawable/ic_baseline_visibility_off_24"
+        android:longClickable="false"
         app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
 
     <Button
